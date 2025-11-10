@@ -1,0 +1,40 @@
+{
+  "id": "simple-present",
+  "name": "Simple Present",
+  "form": "S + V (base) | 3rd sg: -s/-es",
+  "logic": "Habit, routine, general truth, schedules. English uses Simple Present for habits; Portuguese uses Presente do Indicativo (\"eu como\"). For fixed timetables, EN uses Simple Present where PT also uses present (\"o voo sai às 7\").",
+  "ptMap": [
+    "**Hábito**: Presente do Indicativo (eu/ele trabalha). Pode reforçar com *costumar*: \"Costumo ir\".",
+    "**Fatos gerais**: \"A água ferve a 100 °C.\"",
+    "**Horários fixos**: \"O ônibus sai às 6.\" (EN também usa presente para amanhã se for horário oficial)"
+  ],
+  "tags": [
+    "habit",
+    "routine",
+    "general truth",
+    "schedule",
+    "present",
+    "costumar",
+    "horário",
+    "simple"
+  ],
+  "examples": [
+    {
+      "en": "I work from home.",
+      "pt": "Eu trabalho de casa."
+    },
+    {
+      "en": "She plays tennis on Mondays.",
+      "pt": "Ela joga tênis às segundas."
+    },
+    {
+      "en": "The train leaves at 6.",
+      "pt": "O trem sai às 6."
+    }
+  ],
+  "timeline": 45,
+  "pitfalls": [
+    "3ª pessoa -s/-es: ~~She work~~ → **She works**.",
+    "Horários fixos em EN usam presente (mesmo com referência futura)."
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "future-going-to",
+  "name": "Future: going to",
+  "form": "S + am/is/are + going to + V",
+  "logic": "Plano/Intenção prévia ou previsão com evidência. Em PT: \"vou + infinitivo\" cobre bem (plano).",
+  "ptMap": [
+    "**Plano/intenções**: \"Vou trabalhar/estudar\".",
+    "**Evidência visível**: \"Olha as nuvens, vai chover\"."
+  ],
+  "tags": [
+    "plan",
+    "intention",
+    "evidence",
+    "vou",
+    "going to"
+  ],
+  "examples": [
+    {
+      "en": "I am going to start a course next week.",
+      "pt": "Eu vou começar um curso semana que vem."
+    },
+    {
+      "en": "Look at those clouds—it's going to rain.",
+      "pt": "Olha aquelas nuvens — vai chover."
+    }
+  ],
+  "timeline": 80,
+  "pitfalls": [
+    "Plano já decidido. Para agenda próxima, presente contínuo também funciona: **I'm meeting...**"
+  ]
+}

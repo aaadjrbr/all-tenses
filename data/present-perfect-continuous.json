@@ -1,0 +1,40 @@
+{
+  "id": "present-perfect-cont",
+  "name": "Present Perfect Continuous",
+  "form": "S + have/has + been + V-ing",
+  "logic": "Duração que começou no passado e continua até AGORA; foco em processo/recência. Em PT: **estou ... há X / faz X que ...**; **tenho + particípio** é raro no BR; **ando/venho + gerúndio** para hábito recente.",
+  "ptMap": [
+    "**Duração contínua**: \"Tenho trabalhado\" (mais formal) / \"Ando/venho trabalhando\" / \"Estou trabalhando há X\".",
+    "**Since vs. For**: since = ponto inicial → \"desde\"; for = duração → \"há / por\".",
+    "**Uso natural**: muitas vezes o PT usa Presente contínuo/simples com \"há\"/\"desde\"."
+  ],
+  "tags": [
+    "duration",
+    "since",
+    "for",
+    "process",
+    "há",
+    "faz",
+    "venho",
+    "ando"
+  ],
+  "examples": [
+    {
+      "en": "I have been eating a lot recently.",
+      "pt": "Ando/venho comendo muito ultimamente. / Estou comendo muito há um tempo."
+    },
+    {
+      "en": "She has been working here for five years.",
+      "pt": "Ela trabalha aqui há cinco anos. / Está trabalhando aqui há cinco anos."
+    },
+    {
+      "en": "We have been waiting since 2 pm.",
+      "pt": "Estamos esperando desde as 14h."
+    }
+  ],
+  "timeline": 48,
+  "pitfalls": [
+    "Prefira \"estou/venho/ando + gerúndio\" em vez de \"tenho + particípio\" no BR.",
+    "Marque duração com \"há/faz\" ou \"desde\": **I have been working here for 5 years** → **Trabalho aqui há 5 anos / desde 2019**."
+  ]
+}

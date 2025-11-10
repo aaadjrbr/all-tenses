@@ -1,0 +1,29 @@
+{
+  "id": "past-perfect",
+  "name": "Past Perfect",
+  "form": "S + had + V-ed",
+  "logic": "Passado do passado. Uma ação A terminou ANTES de outra ação B no passado. Em PT: \"já tinha + particípio\".",
+  "ptMap": [
+    "**Anterioridade**: \"Eu já tinha terminado quando ele chegou\"."
+  ],
+  "tags": [
+    "sequence",
+    "anteriority",
+    "antes de",
+    "já tinha"
+  ],
+  "examples": [
+    {
+      "en": "I had finished when he arrived.",
+      "pt": "Eu já tinha terminado quando ele chegou."
+    },
+    {
+      "en": "She had never seen snow before 2010.",
+      "pt": "Ela nunca tinha visto neve antes de 2010."
+    }
+  ],
+  "timeline": 18,
+  "pitfalls": [
+    "Só faz sentido com outra âncora no passado (A antes de B)."
+  ]
+}

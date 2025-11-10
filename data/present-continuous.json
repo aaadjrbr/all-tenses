@@ -1,0 +1,33 @@
+{
+  "id": "present-continuous",
+  "name": "Present Continuous",
+  "form": "S + am/is/are + V-ing",
+  "logic": "Action in progress RIGHT NOW or temporary period. In PT, use \"estar + gerúndio\" (estou fazendo) or sometimes simple present when context makes it obvious.",
+  "ptMap": [
+    "**Agora/temporário**: Estar + gerúndio (\"Estou estudando agora\").",
+    "**PT pode usar presente simples** quando o contexto já indica agora."
+  ],
+  "tags": [
+    "now",
+    "temporary",
+    "ongoing",
+    "presente contínuo",
+    "estou",
+    "gerúndio"
+  ],
+  "examples": [
+    {
+      "en": "I'm studying right now.",
+      "pt": "Estou estudando agora."
+    },
+    {
+      "en": "They're living with friends this month.",
+      "pt": "Eles estão morando com amigos este mês."
+    }
+  ],
+  "timeline": 50,
+  "pitfalls": [
+    "Evite usar para hábito: presente contínuo é temporário ou **agora**.",
+    "PT às vezes usa presente simples onde EN exige -ing."
+  ]
+}

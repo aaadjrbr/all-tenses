@@ -1,0 +1,29 @@
+{
+  "id": "simple-present-schedule",
+  "name": "Simple Present (Schedules)",
+  "form": "S + V (base) [future time]",
+  "logic": "Horários fixos/programações oficiais (voos, aulas). EN usa presente simples com referência futura.",
+  "ptMap": [
+    "**Programações oficiais**: \"O voo sai às 7 amanhã\" / \"A aula começa às 8 na terça\"."
+  ],
+  "tags": [
+    "timetable",
+    "schedule",
+    "fixed",
+    "programação"
+  ],
+  "examples": [
+    {
+      "en": "The flight leaves at 7 tomorrow.",
+      "pt": "O voo sai às 7 amanhã."
+    },
+    {
+      "en": "Our class starts at 8 on Tuesday.",
+      "pt": "Nossa aula começa às 8 na terça."
+    }
+  ],
+  "timeline": 65,
+  "pitfalls": [
+    "Use para horários oficiais. Para intenções pessoais, prefira \"going to\"/presente contínuo."
+  ]
+}

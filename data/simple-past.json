@@ -1,0 +1,31 @@
+{
+  "id": "simple-past",
+  "name": "Simple Past",
+  "form": "S + V-ed / irregular form",
+  "logic": "Ação COMPLETA em tempo PASSADO definido (ontem, em 2020). PT: Pretérito Perfeito simples (\"fui\", \"comi\").",
+  "ptMap": [
+    "**Passado fechado**: ontem, na semana passada, em 2020.",
+    "**PT**: Pretérito Perfeito (fui, comi, trabalhei)."
+  ],
+  "tags": [
+    "finished",
+    "past time",
+    "ontem",
+    "em 2020",
+    "pretérito perfeito"
+  ],
+  "examples": [
+    {
+      "en": "We watched the game yesterday.",
+      "pt": "A gente assistiu ao jogo ontem."
+    },
+    {
+      "en": "She bought a new laptop last week.",
+      "pt": "Ela comprou um notebook na semana passada."
+    }
+  ],
+  "timeline": 20,
+  "pitfalls": [
+    "Use para passado FECHADO. Se houver conexão com o presente, avalie Present Perfect."
+  ]
+}

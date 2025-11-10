@@ -1,0 +1,32 @@
+{
+  "id": "future-will",
+  "name": "Future: will",
+  "form": "S + will + V (base)",
+  "logic": "Decisão espontânea, promessa, oferta, previsão sem evidência. Em PT muitas vezes vira \"vou\" no uso real, mas a lógica é: surge na hora (\"Ok, eu faço\").",
+  "ptMap": [
+    "**Decisão no momento**: \"Ok, eu faço\".",
+    "**Promessa/oferta**: \"Eu te ligo\".",
+    "**Previsão geral**: \"Acho que vai chover\" (EN: will)."
+  ],
+  "tags": [
+    "spontaneous",
+    "promise",
+    "offer",
+    "prediction",
+    "will"
+  ],
+  "examples": [
+    {
+      "en": "I'll help you with that.",
+      "pt": "Eu te ajudo com isso agora."
+    },
+    {
+      "en": "I think it will rain tomorrow.",
+      "pt": "Acho que vai chover amanhã."
+    }
+  ],
+  "timeline": 75,
+  "pitfalls": [
+    "Para planos, prefira “going to” ou presente contínuo."
+  ]
+}

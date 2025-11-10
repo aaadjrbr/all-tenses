@@ -1,0 +1,84 @@
+[
+  {
+    "id": "past",
+    "label": "Past",
+    "rule": {
+      "type": "timelineRange",
+      "max": 39
+    }
+  },
+  {
+    "id": "present",
+    "label": "Present",
+    "rule": {
+      "type": "timelineRange",
+      "min": 40,
+      "max": 60
+    }
+  },
+  {
+    "id": "future",
+    "label": "Future",
+    "rule": {
+      "type": "timelineRange",
+      "min": 61
+    }
+  },
+  {
+    "id": "habit",
+    "label": "Habit/Routine",
+    "rule": {
+      "type": "tagsAnyOf",
+      "tags": [
+        "habit",
+        "routine"
+      ]
+    }
+  },
+  {
+    "id": "duration",
+    "label": "Duration (há/for/since)",
+    "rule": {
+      "type": "tagsAnyOf",
+      "tags": [
+        "duration",
+        "since",
+        "for"
+      ]
+    }
+  },
+  {
+    "id": "plan",
+    "label": "Plan/Intention",
+    "rule": {
+      "type": "tagsAnyOf",
+      "tags": [
+        "plan",
+        "arranged",
+        "intention"
+      ]
+    }
+  },
+  {
+    "id": "experience",
+    "label": "Experience (já/ever)",
+    "rule": {
+      "type": "tagsAnyOf",
+      "tags": [
+        "experience",
+        "ever",
+        "have been to"
+      ]
+    }
+  },
+  {
+    "id": "result",
+    "label": "Result now",
+    "rule": {
+      "type": "tagsAnyOf",
+      "tags": [
+        "result"
+      ]
+    }
+  }
+]

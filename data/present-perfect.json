@@ -1,0 +1,51 @@
+{
+  "id": "present-perfect",
+  "name": "Present Perfect",
+  "form": "S + have/has + V-ed (past participle)",
+  "logic": "Links past to present WITHOUT a finished past time. Core logics: (1) **Have you ever...?** ~ PT: \"Você já...?\"; (2) **Resultado agora** (\"I have lost my keys\"); (3) **Sem tempo fechado** (avoid explicit past dates). **Since vs For**: since = ponto inicial; for = duração.",
+  "ptMap": [
+    "**Experiência de vida**: \"Have you ever...?\" → \"Você já...?\" | \"I have been to X\" → \"Eu já fui/estive em X\".",
+    "**Resultado agora**: \"She has finished\" → \"Ela terminou (agora/pronto)\".",
+    "**Sem tempo fechado**: evitar datas passadas explícitas (ontem, em 2020).",
+    "**Since vs. For**: em EN usa Present Perfect com *since* (ponto inicial) e *for* (duração). Em PT: \"Moro aqui **desde** 2018\" / \"Moro aqui **há** 7 anos\"."
+  ],
+  "tags": [
+    "experience",
+    "result",
+    "present link",
+    "já",
+    "sem data",
+    "ever",
+    "have been to",
+    "since",
+    "for"
+  ],
+  "examples": [
+    {
+      "en": "Have you ever tried sushi?",
+      "pt": "Você já experimentou sushi?"
+    },
+    {
+      "en": "I have been to New York three times.",
+      "pt": "Eu já fui a Nova York três vezes."
+    },
+    {
+      "en": "She has finished the report.",
+      "pt": "Ela terminou o relatório (e está pronto agora)."
+    },
+    {
+      "en": "I have lived here since 2018.",
+      "pt": "Moro aqui desde 2018."
+    },
+    {
+      "en": "I have lived here for seven years.",
+      "pt": "Moro aqui há sete anos."
+    }
+  ],
+  "timeline": 40,
+  "pitfalls": [
+    "Não use com tempo passado fechado: ~~I have visited in 2020~~ → **I visited in 2020**.",
+    "Para EXPERIÊNCIA, use \"já\": **I have been to NY** → **Eu já fui/estive em NY**.",
+    "Para RESULTADO AGORA, PT pode usar perfeito simples: **I have lost my keys** → **Perdi minhas chaves (agora)**."
+  ]
+}

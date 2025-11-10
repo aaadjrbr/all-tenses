@@ -1,0 +1,29 @@
+{
+  "id": "present-cont-future",
+  "name": "Present Continuous (Future plan)",
+  "form": "S + am/is/are + V-ing + time ref",
+  "logic": "Compromisso/arranjo agendado e pessoal (reunião, encontro).",
+  "ptMap": [
+    "**Arranjo concreto**: \"Vou encontrar a Ana amanhã às 3\" / \"Tenho reunião amanhã às 9\"."
+  ],
+  "tags": [
+    "arranged",
+    "calendar",
+    "near future",
+    "agenda"
+  ],
+  "examples": [
+    {
+      "en": "I'm meeting Ana tomorrow at 3.",
+      "pt": "Vou encontrar a Ana amanhã às 3."
+    },
+    {
+      "en": "We're having dinner with them tonight.",
+      "pt": "Vamos jantar com eles hoje à noite."
+    }
+  ],
+  "timeline": 70,
+  "pitfalls": [
+    "Exige referência de tempo futuro. É um ARRANJO concreto (agenda)."
+  ]
+}

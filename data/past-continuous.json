@@ -1,0 +1,29 @@
+{
+  "id": "past-continuous",
+  "name": "Past Continuous",
+  "form": "S + was/were + V-ing",
+  "logic": "Ação em progresso em um momento do passado; cenário de fundo quando algo aconteceu.",
+  "ptMap": [
+    "**Estava + gerúndio**: \"Eu estava estudando quando ele ligou\"."
+  ],
+  "tags": [
+    "background",
+    "interrupted",
+    "ongoing past",
+    "estava"
+  ],
+  "examples": [
+    {
+      "en": "I was cooking when she arrived.",
+      "pt": "Eu estava cozinhando quando ela chegou."
+    },
+    {
+      "en": "They were driving at 8 pm.",
+      "pt": "Eles estavam dirigindo às 20h."
+    }
+  ],
+  "timeline": 25,
+  "pitfalls": [
+    "Use para cenário de fundo: **I was studying when he called**."
+  ]
+}
