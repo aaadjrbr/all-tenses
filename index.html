@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -30,6 +30,17 @@
             <span class="material-symbols-outlined">search</span>
             <input id="q" placeholder="Search tenses, e.g. 'já', 'há 3 anos', 'plan', 'experience', 'vou'">
           </div>
+
+          <!-- New buttons (non-breaking) -->
+          <button class="btn" id="toggleSidebar" title="Hide/Show sidebar">
+            <span class="material-symbols-outlined">menu_open</span>Sidebar
+          </button>
+          <button class="btn" id="toggleTheme" title="Light / Dark">
+            <span class="material-symbols-outlined" id="themeIcon">light_mode</span>Theme
+          </button>
+          <button class="btn" id="fullscreen" title="Fullscreen">
+            <span class="material-symbols-outlined">fullscreen</span>Full&nbsp;Screen
+          </button>
           <button class="btn" id="reset"><span class="material-symbols-outlined">restart_alt</span>Reset</button>
         </div>
         <div class="row" id="chips"></div>
@@ -38,13 +49,14 @@
       <article id="slide"></article>
 
       <div class="nav">
-        <button class="btn" id="fullscreen"><span class="material-symbols-outlined">fullscreen</span>Full&nbsp;Screen</button>
         <button class="btn" id="prev"><span class="material-symbols-outlined">arrow_back</span>Prev</button>
         <div class="pill"><span class="material-symbols-outlined">slideshow</span><span id="pos">1 / N</span></div>
         <button class="btn" id="next">Next<span class="material-symbols-outlined">arrow_forward</span></button>
       </div>
 
-      <footer class="muted foot">Built for Aden • Tip: Use ← → to navigate, and search in PT like “já / venho / vou / há 3 anos”.</footer>
+      <footer class="muted foot">
+        Built for Adenilson • Tip: Use ← → to navigate, and search in PT like “já / venho / vou / há 3 anos”.
+      </footer>
     </main>
   </div>
 

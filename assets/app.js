@@ -1,5 +1,4 @@
-
-// Mini formatter for **bold**, *italic*, and ~~strike~~
+// Mini formatter for **bold**, *italic*, and ~~strike~~  (UNCHANGED)
 function fmt(txt){
   return String(txt)
     .replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>')
@@ -15,7 +14,43 @@ const state = {
   index: 0,
 };
 
-// Load manifest -> tenses JSON files -> filters.json
+function $(id){ return document.getElementById(id); }
+
+// ---------- Persistence (theme & sidebar) ----------
+function save(key, value){ try{ localStorage.setItem(key, JSON.stringify(value)); }catch(e){} }
+function load(key, fallback){ try{ const v = localStorage.getItem(key); return v? JSON.parse(v) : fallback; }catch(e){ return fallback; } }
+
+// Theme
+function applyTheme(theme){
+  const html = document.documentElement;
+  html.setAttribute('data-theme', theme);
+  const themeIcon = document.getElementById('themeIcon');
+  if(themeIcon) themeIcon.textContent = (theme === 'light') ? 'dark_mode' : 'light_mode';
+}
+function toggleTheme(){
+  const html = document.documentElement;
+  const next = (html.getAttribute('data-theme') === 'light') ? 'dark' : 'light';
+  applyTheme(next);
+  save('tense_theme', next);
+}
+
+// Sidebar collapse
+function applySidebar(collapsed){
+  document.body.classList.toggle('collapsed', !!collapsed);
+}
+function toggleSidebar(){
+  const now = !document.body.classList.contains('collapsed');
+  applySidebar(now);
+  save('tense_sidebar_collapsed', now);
+}
+
+// Fullscreen
+function toggleFS(){
+  if(!document.fullscreenElement){ document.documentElement.requestFullscreen(); }
+  else { document.exitFullscreen(); }
+}
+
+// ---------- Data Loading ----------
 async function loadData(){
   const manifest = await (await fetch('data/manifest.json')).json();
   const items = await Promise.all(manifest.map(async file => {
@@ -27,8 +62,7 @@ async function loadData(){
   state.filters = await (await fetch('filters.json')).json();
 }
 
-function $(id){ return document.getElementById(id); }
-
+// ---------- Renderers (UNCHANGED core logic) ----------
 function renderSidebar(list){
   const wrap = $('tenseList'); wrap.innerHTML = '';
   list.forEach((t,i)=>{
@@ -159,21 +193,29 @@ function setupUI(){
     state.active=[...state.tenses]; state.index=0; render();
   });
   $('q').addEventListener('input', ()=>{ state.index=0; applyFilters(); render(); });
+
+  // New controls
   $('fullscreen').addEventListener('click', toggleFS);
+  $('toggleSidebar').addEventListener('click', toggleSidebar);
+  $('toggleTheme').addEventListener('click', toggleTheme);
+
+  // Keyboard
   window.addEventListener('keydown', (e)=>{
     if(e.key==='ArrowLeft'){ $('prev').click(); }
     if(e.key==='ArrowRight'){ $('next').click(); }
     if(e.key==='/'){ if(document.activeElement!==$('q')){$('q').focus(); e.preventDefault();} }
     if(e.key==='f'){ toggleFS(); }
+    if(e.key==='t'){ toggleTheme(); }
+    if(e.key==='m'){ toggleSidebar(); }
   });
 }
 
-function toggleFS(){
-  if(!document.fullscreenElement){ document.documentElement.requestFullscreen(); }
-  else { document.exitFullscreen(); }
-}
-
+// ---------- Boot ----------
 (async function init(){
+  // restore settings
+  applyTheme(load('tense_theme','dark'));
+  applySidebar(load('tense_sidebar_collapsed', false));
+
   await loadData();
   setupChips();
   setupUI();

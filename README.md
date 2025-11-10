@@ -88,6 +88,14 @@ On static hosts (no server), there’s no directory listing. Use the manifest (s
 **Q: Can I use JS files instead of JSON?**  
 You *can*, but then you need to include each `<script>` in `index.html`. JSON + manifest keeps HTML untouched.
 
+## Shortcuts
+
+- Sidebar toggle (Menu button or press M)
+
+- Theme switch (Theme button or press T)
+
+- Fullscreen (Full button or press F)
+
 ---
 
-Made for you, Aden. Enjoy growing it like Lego blocks.
+Made for you, Adenilson. Enjoy growing it like Lego blocks.
